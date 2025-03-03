@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section">
+    <div class="wrapper">
+        <h1>convertisseur de distance</h1>
+    
+    <div class="convert">
+        
+        <div class="convert-input1">
+      <input type="number"name="first-value"id="first-value">
+      <select name="first-unit" id="first-unit">
+          <option value="km">kilometre</option>
+          <option value="m"selected>mettre</option>
+         <option value="cm">centimetre</option>
+         <option value="mm">milimetre</option>
+        </select>
+       </div>
+          <div class="icon">
+             <ion-icon name="caret-down"id="icon"></ion-icon>
+        </div>
+      
+
+       <div class="convert-input">
+        <input type="number"name="second-value"id="second-value"disabled>
+        <select name="second-unit" id="second-unit">
+            <option value="km">kilometre</option>
+            <option value="m">mettre</option>
+           <option value="cm"selected>centimetre</option>
+           <option value="mm">milimetre</option>
+  
+        </select>
+         </div>
+        </div>
+
+         <button id="convert-btn">convertir</button>
+    </div>
+</section>
+
+
+
+    <script src="js.js"></script>
+
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script> 
+     
+ <script  nomodule  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" > </script>
+
+</body>
+</html>

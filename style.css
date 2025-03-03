@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: O;
+background-color: rgb(191, 243, 243);
+}
+h1{
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: "poppins";
+}
+.wrapper{
+    margin-left: 30px;
+    margin-bottom: 40px;
+   
+   
+}
+section{
+   
+    margin-top:200px;
+    border: 1px  red solid;
+    margin-bottom: 100px;
+    margin-left: 600px;
+    margin-right: 700px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+#convert-btn{
+    margin-right: 30px;
+    margin-top: 40px;
+}
+.convert-input{
+    margin-top: 20px;
+}
+#icon{
+    margin-left:90px ;
+    margin-top: 20px;
+   
+}
+#second-value{
+    height: 20px;
+}
+
+#first-value{
+    height: 20px;
+}
+#first-unit{
+    height: 20px;
+}
+#second-unit{
+    height: 20px;
+}
+
